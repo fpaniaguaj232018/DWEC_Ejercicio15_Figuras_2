@@ -42,17 +42,18 @@
                 ctx.stroke();
                 ctx.fill();
                 ctx.closePath();
+                ctx.strokeStyle="#FFFFFF";
+                ctx.fillText("INGRESOS SEMANALES",OFFSET,10);
             }
         }
         function dibujarFondo(){
             ctx.strokeStyle="#AAAAAA";
-            ctx.fillRect(0,0,400,300);
+            //ctx.fillRect(0,0,400,300);
         }
 
     </script>
 </head>
 <body onload="inicializar()" style="background-color: aquamarine">
-    <H1>PROYECTO CANVAS</H1>
     <canvas id="miCanvas" width="400px" height="300px">
 
     </canvas>
